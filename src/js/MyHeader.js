@@ -159,6 +159,7 @@ let ThingContainer = Vue.component('thing-container', {
 			<p class="number">+380 98 099-42-50</p>
 			<p class="number">+380 98 377-12-67</p>
 			<p class="number">+380 67 204-77-43</p>
+			<p class="number">https://www.instagram.com/xedrum_shop/</p>
 		</div>
 	</div>`,
 	methods: {
