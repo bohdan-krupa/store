@@ -2,7 +2,7 @@ let things = [
 	{
 		id: 790,
 		filter: 'shoes',
-		name: 'Walked Nike',
+		name: 'Nike Mercurial Walked (сороконожки)',
 		price: 599,
 		img: './src/images/shoes-1-1.jpg',
 		otherImg: [
