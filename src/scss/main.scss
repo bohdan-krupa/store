@@ -194,6 +194,11 @@ h1 {
 			text-align: center;
 			line-height: 130%;
 			color: $main-color;
+
+
+			:first-child {
+				margin-bottom: 5px;
+			}
 		}
 	}
 }
