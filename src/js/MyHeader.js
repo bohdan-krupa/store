@@ -7,7 +7,34 @@ let things = [
 		img: './src/images/shoes-1-1.jpg',
 		otherImg: [
 			'./src/images/shoes-1-2.jpg',
-			'./src/images/shoes-1-3.jpg'
+			'./src/images/shoes-1-3.jpg',
+			'./src/images/shoes-1-4.jpg'
+		],
+		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		availability: true
+	},
+	{
+		id: 791,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконожки)',
+		price: 599,
+		img: './src/images/shoes-2-1.jpg',
+		otherImg: [
+			'./src/images/shoes-2-2.jpg'
+		],
+		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		availability: true
+	},
+	{
+		id: 792,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконожки)',
+		price: 599,
+		img: './src/images/shoes-3-1.jpg',
+		otherImg: [
+			'./src/images/shoes-3-2.jpg',
+			'./src/images/shoes-3-3.jpg',
+			'./src/images/shoes-3-4.jpg'
 		],
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
 		availability: true
