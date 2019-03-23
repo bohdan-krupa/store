@@ -11,7 +11,7 @@ let things = [
 		],
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
 		availability: true
-	}
+	},
 ]
 
 let things2 = things

@@ -17,7 +17,7 @@ gulp.task('git-add', ['sass'], function (cb) {
 			console.log(stdout);
 			console.log(stderr);
 
-			exec('git push -u origin master', function (err, stdout, stderr) {
+			exec('git push -f -u origin master', function (err, stdout, stderr) {
 				console.log(stdout);
 				console.log(stderr);
 				cb(err);
@@ -28,8 +28,7 @@ gulp.task('git-add', ['sass'], function (cb) {
 
 gulp.task('sass', () => {
 	return gulp.src(path.sass)
-	// {outputStyle: 'compressed'}
-		.pipe(sass().on('error', sass.logError))
+		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		.pipe(gulp.dest('src/css/'));
 });
 
