@@ -46,7 +46,7 @@ let things = [
 		img: './src/images/shoes-4-1.jpg',
 		otherImg: [
 			'./src/images/shoes-4-2.jpg',
-			'./src/images/shoes-4-3.jpg'
+			'./src/images/shoes-4-3.jpg',
 			'./src/images/shoes-4-4.jpg'
 		],
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
