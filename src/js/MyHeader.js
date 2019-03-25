@@ -170,7 +170,7 @@ let ThingContainer = Vue.component('thing-container', {
 			<p class="description">{{ thing.description }}</p>
 			<p class="contact-title">Контакти для покупки</p>
 			<a href="https://www.instagram.com/xedrum_shop/" class="number">Instagram: @xedrum_shop</a>
-			<a href="tel:+380 98 377-12-67" class="number">+380 98 377-12-67</a>
+			<a href="tel:+380983771267" class="number">+380 98 377-12-67</a>
 			<a href="tel:+380672047743" class="number">+380 67 204-77-43</a>
 		</div>
 	</div>`,
