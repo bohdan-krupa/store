@@ -1,3 +1,8 @@
+let description = `Качественный товар!<br />
+	Доставка по всей Украине 2-3 дня!<br />
+	За заказом в Direct!<br />
+	Розмер 31-44!`
+
 let things = [
 	{
 		id: 790,
@@ -9,7 +14,7 @@ let things = [
 			'./src/images/shoes-1-2.jpg',
 			'./src/images/shoes-1-3.jpg'
 		],
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		description: description,
 		availability: true
 	},
 	{
@@ -23,7 +28,7 @@ let things = [
 			'./src/images/shoes-2-3.jpg',
 			'./src/images/shoes-2-4.jpg'
 		],
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		description: description,
 		availability: true
 	},
 	{
@@ -35,7 +40,7 @@ let things = [
 		otherImg: [
 			'./src/images/shoes-3-2.jpg'
 		],
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		description: description,
 		availability: true
 	},
 		{
@@ -49,12 +54,10 @@ let things = [
 			'./src/images/shoes-4-3.jpg',
 			'./src/images/shoes-4-4.jpg'
 		],
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam ducimus fugit illo ipsam, harum, sint eveniet provident ullam nostrum? Fugit tenetur illo dolore aut fuga neque inventore aliquid dolores.',
+		description: description,
 		availability: true
 	}
 ]
-
-let things2 = things
 
 Vue.component('my-header', {
 	template: `<h1>Xedrum Shop</h1>`
