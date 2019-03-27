@@ -98,19 +98,21 @@ Vue.component('filter-container', {
 			active: 'shoes'
 		}
 	},
-	template: `<div class="filter-container">
-		<!-- <div
-			v-for="filter in filters"
-			class="filter" :class="{ active: filter.tag == active }"
-			@click="filterClick(filter.tag)"
-		>
-			{{ filter.name }}
-		</div> -->
-		<div class="filter">Добро пожаловать в наш интернет-магазин!<br />
+	// template: `<div class="filter-container">
+	// 	<div
+	// 		v-for="filter in filters"
+	// 		class="filter" :class="{ active: filter.tag == active }"
+	// 		@click="filterClick(filter.tag)"
+	// 	>
+	// 		{{ filter.name }}
+	// 	</div>
+	// </div>`,
+	template: `<p class="sub-text">
+		Добро пожаловать в наш интернет-магазин!<br />
 		Вашему вниманию широкий ассортимент товаров!<br />
 		Наш интернет-магазин предлагает самые низкие цены!<br />
-		Ждём вас за покупками каждый день, мы всегда к вашим услугам!</div>
-	</div>`,
+		Ждём вас за покупками каждый день, мы всегда к вашим услугам!
+	</p>`,
 	methods: {
 		filterClick(tag) {
 			this.active = tag
