@@ -107,7 +107,7 @@ Vue.component('filter-container', {
 	// 		{{ filter.name }}
 	// 	</div>
 	// </div>`,
-	template: `<p class="sub-text filter">
+	template: `<p class="sub-text">
 		Добро пожаловать в наш интернет-магазин!<br />
 		Вашему вниманию широкий ассортимент товаров!<br />
 		Наш интернет-магазин предлагает самые низкие цены!<br />
