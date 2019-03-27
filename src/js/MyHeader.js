@@ -99,13 +99,13 @@ Vue.component('filter-container', {
 		}
 	},
 	template: `<div class="filter-container">
-		// <div
-		// 	v-for="filter in filters"
-		// 	class="filter" :class="{ active: filter.tag == active }"
-		// 	@click="filterClick(filter.tag)"
-		// >
-		// 	{{ filter.name }}
-		// </div>
+		<!-- <div
+			v-for="filter in filters"
+			class="filter" :class="{ active: filter.tag == active }"
+			@click="filterClick(filter.tag)"
+		>
+			{{ filter.name }}
+		</div> -->
 		<div class="filter">Добро пожаловать в наш интернет-магазин!<br />
 		Вашему вниманию широкий ассортимент товаров!<br />
 		Наш интернет-магазин предлагает самые низкие цены!<br />
