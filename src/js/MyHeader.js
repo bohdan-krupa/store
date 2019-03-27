@@ -1,4 +1,4 @@
-let description = '<p>skdjfhj</p>'
+let description = <p>skdjfhj</p>
 
 let things = [
 	{
