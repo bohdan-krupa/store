@@ -1,4 +1,7 @@
-let description = `<p>Jbhdcb</p>`
+let description = `Качественный товар!<br />
+	Доставка по всей Украине 2-3 дня!<br />
+	За заказом в Direct!<br />
+	Розмер 31-44!`
 
 let things = [
 	{
