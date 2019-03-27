@@ -1,6 +1,4 @@
-let description = Vue.component('name-name', {
-	template: `<p>Jbhdcb</p>`
-})
+let description = {template: `<p>Jbhdcb</p>`}
 
 let things = [
 	{
