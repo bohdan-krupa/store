@@ -1,4 +1,4 @@
-let description = {template: `<p>Jbhdcb</p>`}
+let description = `<p>Jbhdcb</p>`
 
 let things = [
 	{
@@ -167,7 +167,7 @@ let ThingContainer = Vue.component('thing-container', {
 			<p v-if="thing.availability" class="available">В наявності</p>
 			<p v-else class="unavailable">Немає в наявності</p>
 			<p class="article">Артикул: {{ thing.id }}</p>
-			<p class="description">{{ thing.description }}</p>
+			<p v-html="thing.description" class="description"></p>
 			<p class="contact-title">Контакти для покупки</p>
 			<a href="https://www.instagram.com/xedrum_shop/" class="number">Instagram: @xedrum_shop</a>
 			<a href="tel:+380983771267" class="number">+380 98 377-12-67</a>
