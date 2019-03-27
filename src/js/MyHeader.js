@@ -1,7 +1,7 @@
 let description = `Качественный товар!<br />
 	Доставка по всей Украине 2-3 дня!<br />
 	За заказом в Direct!<br />
-	Розмер 31-44!`
+	Размер 31-44!`
 
 let things = [
 	{
@@ -138,7 +138,7 @@ Vue.component('things', {
 				<div class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
 					<div class="price">{{ thing.price }}&#8372;</div>
 				</div>
-				<div class="btn-buy">Купити</div>
+				<div class="btn-buy">Купить</div>
 			</router-link>
 		</div>
 	</div>`
@@ -173,11 +173,11 @@ let ThingContainer = Vue.component('thing-container', {
 		</div>
 		<div class="right">
 			<p class="name">{{ thing.name }}</p>
-			<p v-if="thing.availability" class="available">В наявності</p>
-			<p v-else class="unavailable">Немає в наявності</p>
+			<p v-if="thing.availability" class="available">В наличии</p>
+			<p v-else class="unavailable">Нету в наличии</p>
 			<p class="article">Артикул: {{ thing.id }}</p>
 			<p v-html="thing.description" class="description"></p>
-			<p class="contact-title">Контакти для покупки</p>
+			<p class="contact-title">Контакты для покупки</p>
 			<a href="https://www.instagram.com/xedrum_shop/" class="number">Instagram: @xedrum_shop</a>
 			<a href="tel:+380983771267" class="number">+380 98 377-12-67</a>
 			<a href="tel:+380672047743" class="number">+380 67 204-77-43</a>
