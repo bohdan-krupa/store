@@ -1,13 +1,14 @@
-let description = `Качественный товар!<br />
-	Доставка по всей Украине 2-3 дня!<br />
-	За заказом в Direct!<br />
-	Размер 31-44!`
+let description = `Ціна: 600 грн<br />
+	Якісний товар!<br />
+	Доставка по всій Україні 2-3 дня!<br />
+	Оплата при отриманні!<br />
+	Розмір 31-44!`
 
 let things = [
 	{
 		id: 790,
 		filter: 'shoes',
-		name: 'Nike Mercurial Walked (сороконожки)',
+		name: 'Nike Mercurial Walked (сороконіжки)',
 		price: 599,
 		img: './src/images/shoes-1-1.jpg',
 		otherImg: [
@@ -20,7 +21,7 @@ let things = [
 	{
 		id: 791,
 		filter: 'shoes',
-		name: 'Nike Mercurial Walked (сороконожки)',
+		name: 'Nike Mercurial Walked (сороконіжки)',
 		price: 599,
 		img: './src/images/shoes-2-1.jpg',
 		otherImg: [
@@ -34,7 +35,7 @@ let things = [
 	{
 		id: 792,
 		filter: 'shoes',
-		name: 'Nike Mercurial Walked (сороконожки)',
+		name: 'Nike Mercurial Walked (сороконіжки)',
 		price: 599,
 		img: './src/images/shoes-3-1.jpg',
 		otherImg: [
@@ -43,16 +44,55 @@ let things = [
 		description: description,
 		availability: true
 	},
-		{
+	{
 		id: 793,
 		filter: 'shoes',
-		name: 'Nike Mercurial Walked (сороконожки)',
+		name: 'Nike Mercurial Walked (сороконіжки)',
 		price: 599,
 		img: './src/images/shoes-4-1.jpg',
 		otherImg: [
 			'./src/images/shoes-4-2.jpg',
 			'./src/images/shoes-4-3.jpg',
 			'./src/images/shoes-4-4.jpg'
+		],
+		description: description,
+		availability: true
+	},
+	{
+		id: 794,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконіжки)',
+		price: 599,
+		img: './src/images/shoes-5-1.jpg',
+		otherImg: [
+			'./src/images/shoes-5-2.jpg',
+			'./src/images/shoes-5-3.jpg'
+		],
+		description: description,
+		availability: true
+	},
+	{
+		id: 795,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконіжки)',
+		price: 599,
+		img: './src/images/shoes-6-1.jpg',
+		otherImg: [
+			'./src/images/shoes-6-2.jpg',
+			'./src/images/shoes-6-3.jpg'
+		],
+		description: description,
+		availability: true
+	},
+	{
+		id: 796,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконіжки)',
+		price: 599,
+		img: './src/images/shoes-7-1.jpg',
+		otherImg: [
+			'./src/images/shoes-7-2.jpg',
+			'./src/images/shoes-7-3.jpg'
 		],
 		description: description,
 		availability: true
@@ -108,10 +148,10 @@ Vue.component('filter-container', {
 	// 	</div>
 	// </div>`,
 	template: `<p class="sub-text">
-		Добро пожаловать в наш интернет-магазин!<br />
-		Вашему вниманию широкий ассортимент товаров!<br />
-		Наш интернет-магазин предлагает самые низкие цены!<br />
-		Ждём вас за покупками каждый день, мы всегда к вашим услугам!
+		Ласкаво просимо в наш інтернет-магазин!<br />
+		Вашій увазі широкий асортимент товарів!<br />
+		Наш інтернет-магазин пропонує найнижчі ціни!<br />
+		Чекаємо вас за покупками кожен день, ми завжди готові до ваших послуг!
 	</p>`,
 	methods: {
 		filterClick(tag) {
@@ -138,7 +178,7 @@ Vue.component('things', {
 				<div class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
 					<div class="price">{{ thing.price }}&#8372;</div>
 				</div>
-				<div class="btn-buy">Купить</div>
+				<div class="btn-buy">Купити</div>
 			</router-link>
 		</div>
 	</div>`
@@ -173,11 +213,11 @@ let ThingContainer = Vue.component('thing-container', {
 		</div>
 		<div class="right">
 			<p class="name">{{ thing.name }}</p>
-			<p v-if="thing.availability" class="available">В наличии</p>
-			<p v-else class="unavailable">Нету в наличии</p>
+			<p v-if="thing.availability" class="available">В наявності</p>
+			<p v-else class="unavailable">Немає в наявності</p>
 			<p class="article">Артикул: {{ thing.id }}</p>
 			<p v-html="thing.description" class="description"></p>
-			<p class="contact-title">Контакты для покупки</p>
+			<p class="contact-title">Контакти для покупки</p>
 			<a href="https://www.instagram.com/xedrum_shop/" class="number">Instagram: @xedrum_shop</a>
 			<a href="tel:+380983771267" class="number">+380 98 377-12-67</a>
 			<a href="tel:+380672047743" class="number">+380 67 204-77-43</a>
