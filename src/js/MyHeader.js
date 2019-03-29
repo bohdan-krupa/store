@@ -176,9 +176,9 @@ Vue.component('things', {
 			class="thing"
 		>
 			<router-link :to="'/article/' + thing.id">
-				<img class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
+				<div class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
 					<div class="price">{{ thing.price }}&#8372;</div>
-				</img>
+				</div>
 				<div class="btn-buy">Купити</div>
 			</router-link>
 		</div>
