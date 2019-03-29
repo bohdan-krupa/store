@@ -202,9 +202,9 @@ let ThingContainer = Vue.component('thing-container', {
 	},
 	template: `<div class="thing-container">
 		<div class="left">
-			<img class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
+			<div class="image" :style="{ backgroundImage: 'url(' + thing.img + ')' }">
 				<div class="price">{{ thing.price }}&#8372;</div>
-			</img>
+			</div>
 			<div
 				v-for="(img, id) in thing.otherImg"
 				class="small-image"
