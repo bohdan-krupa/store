@@ -96,6 +96,31 @@ let things = [
 		],
 		description: description,
 		availability: true
+	},
+	{
+		id: 797,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконіжки)',
+		price: 599,
+		img: './src/images/shoes-8-1.jpg',
+		otherImg: [
+			'./src/images/shoes-8-2.jpg',
+			'./src/images/shoes-8-3.jpg'
+		],
+		description: description,
+		availability: true
+	},
+	{
+		id: 798,
+		filter: 'shoes',
+		name: 'Nike Mercurial Walked (сороконіжки)',
+		price: 599,
+		img: './src/images/shoes-9-1.jpg',
+		otherImg: [
+			'./src/images/shoes-9-2.jpg'
+		],
+		description: description,
+		availability: true
 	}
 ]
 
